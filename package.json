@@ -1,0 +1,32 @@
+{
+  "name": "expresslite",
+  "version": "1.0.0",
+  "description": "TCP implementation of express server.",
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "build": "tsup",
+    "test": "npm run build && node clientServer.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RohitDevendraSawant/TCP-Server.git"
+  },
+  "keywords": [
+    "Express",
+    "TCP",
+    "Server"
+  ],
+  "author": "Rohit Devendra Sawant",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RohitDevendraSawant/TCP-Server/issues"
+  },
+  "homepage": "https://github.com/RohitDevendraSawant/TCP-Server#readme",
+  "devDependencies": {
+    "@types/node": "^24.8.1",
+    "tsup": "^8.5.0",
+    "typescript": "^5.9.3"
+  }
+}
